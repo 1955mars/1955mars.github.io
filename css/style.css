@@ -1,0 +1,171 @@
+header.masthead {
+    background-image: url(../img/bg.jpg);
+}
+
+header img:hover {
+    transition: transform 500ms ease, color 500ms linear;
+    transform: scale(1.1);
+}
+
+.img-responsive {
+    border-radius: 50%;
+}
+
+header.masthead .intro-text .intro-lead-in {
+	margin-top: 35px;
+}
+
+section h2.section-subheading {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: none;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+	section {
+	    padding: 100px 0;
+	}
+}
+
+.rw-words {
+	display: inline;
+	text-indent: 15px;
+}
+
+.rw-words-1 span {
+	-webkit-animation: rotateWords 9s ease-out infinite 0s;
+    animation: rotateWords 9s ease-out infinite 0s;
+    opacity: 0;
+    position: absolute;
+    overflow: hidden;
+    color: #fec503;
+}
+
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+}
+
+header.masthead .intro-text .intro-lead-in {
+    text-align: left;
+}
+
+.intro-lead-in span {
+	white-space: nowrap;
+	line-height: 1.5;
+	text-align: left;
+}
+
+@keyframes rotateWords {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	35% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+hr.colored {
+    border-color: gray;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+hr {
+    border-color: #85929E;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+#about {
+	background-color: #fdefeb;
+}
+
+#interests {
+	background-color: whitesmoke;
+}
+
+.interests {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.interests img {
+    margin: auto;
+    border: 7px solid white;
+    max-width: 100%;
+    height: 200px;
+    width: 250px;
+}
+
+.img-rounded {
+    border-radius: 6px;
+}
+
+h4{
+    font-weight: 500;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.interests h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.img-fluid.project-img {
+	height: 300px;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    height: auto;
+    display: block;
+    background-color: #2b344d;
+    color: #fff;
+}
+
+ul.social-buttons {
+	margin-bottom: 25px;
+	display: inline-flex;
+}
+
+ul.social-buttons li {
+	padding: 10px;
+}
+
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #85929E;
+    border-color: #F05F40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
+.btn {
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
