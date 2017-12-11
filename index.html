@@ -129,13 +129,36 @@
       </div>
     </section>
 
+    <section id="publications">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Publications</h2>
+            <hr class="colored">
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-lg-4 col-md-12 col-xs-12">
+            <div class="publication-img">
+              <img src="img/projects/Publication.jpg" width="300" height="200" class="img" alt="">
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-xs-12">
+            <h5>Multi-Functional Real Time Path Programmable Robot</h5>
+            <p>Sandeep Konam, Patan Mansoor Basha, Renukalakshmi Dasari</p>
+            <a href=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Projects</h2>
-            <h2 class="section-subheading">Machine Learning Nano Degree</h2>
+            <h2 class="section-subheading">Artificial Intelligence Projects</h2>
           </div>
         </div>
         <div class="row">
@@ -193,6 +216,76 @@
             <div class="portfolio-caption">
               <h4>Smart Cab</h4>
               <p class="text-muted">Train a Smartcab to Drive</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#imageClassifierModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid project-img" src="img/projects/Image_Classification.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Image Classification</h4>
+              <p class="text-muted">Image Classification</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#bikeRentalPredictorModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid project-img" src="img/projects/BikeRentalPrediction.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Bike Rental Predictor</h4>
+              <p class="text-muted">Bike Rental Predictor</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#faceGeneratorModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid project-img" src="img/projects/Face_Generation.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Face Generator</h4>
+              <p class="text-muted">Face Generator using GANs</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#languageTranslatorModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid project-img" src="img/projects/Translation_Project.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Language Translator</h4>
+              <p class="text-muted">Language Translator using LSTMs</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#tvScriptGeneratorModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid project-img" src="img/projects/TV_Script_Generation.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>TV Script Generator</h4>
+              <p class="text-muted">TV Script Generator using RNNs</p>
             </div>
           </div>
         </div>
@@ -361,6 +454,177 @@
         </div>
       </div>
     </div>
+    
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="imageClassifierModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Image Classifier</h2>
+                  <p class="item-intro text-muted">Train a Smart Cab to Drive</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/Image_Classification.jpg" alt="">
+                  <p>Applied reinforcement learning to build a simulated vehicle navigation agent. This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.</p>
+                  <ul class="list-inline">
+          <li>Reinforcement Learning, Q – Learning, Optimization, Modeling, Model Tuning</li>
+          <li><a href="https://github.com/1955mars/Machine-learning/tree/master/projects/smart-cab">[source code]</a></li>
+                    <li>Date: January 2017</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="bikeRentalPredictorModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Bike Rental Preditcor</h2>
+                  <p class="item-intro text-muted">Train a Smart Cab to Drive</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/BikeRentalPrediction.jpg" alt="">
+                  <p>Applied reinforcement learning to build a simulated vehicle navigation agent. This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.</p>
+                  <ul class="list-inline">
+          <li>Reinforcement Learning, Q – Learning, Optimization, Modeling, Model Tuning</li>
+          <li><a href="https://github.com/1955mars/Machine-learning/tree/master/projects/smart-cab">[source code]</a></li>
+                    <li>Date: January 2017</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="faceGeneratorModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Face Generator</h2>
+                  <p class="item-intro text-muted">Train a Smart Cab to Drive</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/Face_Generation.jpg" alt="">
+                  <p>Applied reinforcement learning to build a simulated vehicle navigation agent. This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.</p>
+                  <ul class="list-inline">
+          <li>Reinforcement Learning, Q – Learning, Optimization, Modeling, Model Tuning</li>
+          <li><a href="https://github.com/1955mars/Machine-learning/tree/master/projects/smart-cab">[source code]</a></li>
+                    <li>Date: January 2017</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div class="portfolio-modal modal fade" id="languageTranslatorModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>Language Translator</h2>
+                  <p class="item-intro text-muted">Train a Smart Cab to Drive</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/Translation_Project.jpg" alt="">
+                  <p>Applied reinforcement learning to build a simulated vehicle navigation agent. This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.</p>
+                  <ul class="list-inline">
+          <li>Reinforcement Learning, Q – Learning, Optimization, Modeling, Model Tuning</li>
+          <li><a href="https://github.com/1955mars/Machine-learning/tree/master/projects/smart-cab">[source code]</a></li>
+                    <li>Date: January 2017</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7 -->
+    <div class="portfolio-modal modal fade" id="tvScriptGeneratorModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2>TV Script Generator</h2>
+                  <p class="item-intro text-muted">Train a Smart Cab to Drive</p>
+                  <img class="img-fluid d-block mx-auto" src="img/projects/TV_Script_Generation.jpg" alt="">
+                  <p>Applied reinforcement learning to build a simulated vehicle navigation agent. This project involved modeling a complex control problem in terms of limited available inputs, and designing a scheme to automatically learn an optimal driving strategy based on rewards and penalties.</p>
+                  <ul class="list-inline">
+          <li>Reinforcement Learning, Q – Learning, Optimization, Modeling, Model Tuning</li>
+          <li><a href="https://github.com/1955mars/Machine-learning/tree/master/projects/smart-cab">[source code]</a></li>
+                    <li>Date: January 2017</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     
 
     <!-- Bootstrap core JavaScript -->
